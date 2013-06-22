@@ -1,0 +1,75 @@
+sonic todo:
+
+Gimmicks:
+[ ] horizontal springs
+[ ] vertical springs
+[ ] diagonal springs
+[ ] drop-away platforms
+[ ] moving platforms
+[ ]  big mario\small mario type transformation?
+
+character
+[ ] animation :o
+
+Geometry:
+[ ] loop-de-loops
+[ ] jump-up-throughable terrain
+
+[ ] when a ceiling and floor slope together, sonic can get stuck by his wall-sensors
+	when both the ceiling and ground sensor go off it's probably a sign to stop.
+[ ] allow sonic to stand on tiny platforms.
+[ ] walking up hills is too hard - 45 degree slopes should be slow but steady.
+[ ] at less than 60 degrees, drag shouldn't affect you while slowly walking
+[ ] make collision checks more rigorous than in old sonic
+	it should be provably impossible for sonic to pop through terrain. maybe.
+	the floor can push sonic up through a ceiling at the moment
+	if the floor is narrower than sonic's feet, sonic will fall through it.
+[ ] the new checks to prevent momentary rotations can cause sonic to fall off on the outside of curves.
+	because sonic 	refuses to rotate, so runs off the edge.
+
+2011-04-09
+[x] really fixed the popping-through walls bug (instead of shifting it from vertical movement to horizontal movement)
+[x] sonic 'trudges' up steep slopes i.e. slips less.
+[x] converted graphics to OpenGL using LWJGL.
+
+2011-04-07
+[x] fixed a popping-through-walls bug.
+
+2011-04-04
+did a trivial start to adding map entities (level editor - press i)
+they don't save or do anything or have collision checks etc i'm tired.
+
+2011-03-26
+[x] higher acceleration than the original Sonic - easier to get up to speed.
+[x] added some 'rolling' (doesn't actually make sonic shorter)
+[x] jumping sideways now gives a sideways boost
+[x] reduced vertical boost from jumping while running uphill.
+[x] fixed a teleport bug when hitting a ceiling, while sideways, in negative coords.
+
+thinking about Mirror's Edge 2D - why is it more fun than my prototype?
+there's more to do and more feeling of speed.
+animation, sound etc.
+Wall running is uninteresting to me, and wall jumping is overdone 
+(and done to perfection in Super Meat Boy) -
+but sliding is a good mechanic that i could steal, and a good substitute
+for rolling. 
+
+2011-03-24
+[x] don't flicker between two angle modes - don't change angle mode unless it will stick.
+[x] tidied up the wall checks handing of rotation
+[x] added extra trace-lines checking for walls so Sonic won't walk "under" high walls.
+- [x] fixed: when the ceiling and floor get close together, sonic can walk through the ceiling
+
+2011-03-20
+Rewrote Level using vector lines instead of a huge bitmap. Should be much better.
+Tried rewriting Sonic with true rotation, quickly gave up.
+The existing Sonic will be fine with a few tweaks.
+[x] wall and ceiling checks must work in all modes.
+
+2011-03-19
+and earlier.
+
+[x] in a large loop-de-loop you can get stuck in horizontal mode on the side
+   - an almost-sheer-cliff must never be detected as horizontal.
+[x] angles on the edge of flat platforms are awful.
+	fix is the reverse foot check.

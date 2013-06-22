@@ -1,0 +1,75 @@
+2010-12-18
+
+Ludum Dare Log:
+
+Pre competition.
+
+I need to choose between Actionscript, Unity and Java as a development environment.
+
+For every ludum dare so far I have used ActionScript. But my games are getting kind of samey, I do the same things every time.
+
+Unity makes 3D easy (and more or less compulsory) and may be a good way to get attention and points in the judging rounds.
+
+Java is my best language. I've been reluctant to use it for game dev in the past, but since Notch used it effectively last compo,
+
+3:01 PM
+
+theme is DISCOVERY
+
+ok, it's paper planning time.
+
+3:29 PM
+
+Ok, it's time to play all of my previous LD games. And think where i go wrong.
+
+All my old games are a bit sameish and I could continue making things similar - 
+i.e. a space ship (or whatever) exploring a 2D space while collecting something.
+
+That fits this theme quite well.
+
+Um, gotta make a decision. It doesn't even matter what it is, just make one.
+
+I'd love to make a metroidvania. But I don't have the frameworks set up for that.
+But I could.
+
+i could make a what-i-always-make except in java.
+
+I don't feel like using Unity ATM. although: it could be awesome.
+
+UNITY:
+
+Drop in a first person controller, make a funky landscape,
+some misc clever ideas and i would be done.
+
+I could remake my unfinished sauerbraten game. that would be cool.
+ 
+ It needs:
+ 
+ 1. first person controller (free in Unity)
+ 2. Beautiful level (I'll learn how to do it in Blender)
+ 3. Collectable 'Mario Coins" - a trivial rotate script, some bloom and it's done.
+ 4. the energy beams of light to follow
+ 5. the enemies - rudimetary AI - hmmm
+ 
+ is this possible?
+ 
+ can I do this?
+ 
+ more importantly, can I in the next 22 minutes decide to commit to this and do it?
+ 
+ ....
+ .......
+ 
+ so many ideas, I wanna do them all! But be rational Matthew, there are three LDs per year and i'll have
+ chances to make every game I want.
+ 
+ OK. I'm going to remake my unfinished game 'Sauer Test' but in Unity.
+ 
+ Pros: no design time, since i've already designed it
+ I obviously can't reuse the assets but they're trivial anyway.
+ OK, time to play it and think about it.
+ 
+ Biggest risk: Building the level, how do you do that? Unity primitives is the WRONG thing to do.
+ Blender etc, cool but how do I texture it?
+ 
+ OK, i'm going with Unity. (So say goodby to this eclipse project.)
